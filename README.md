@@ -115,25 +115,25 @@ molecule-x/
 
 ## 🏆 Benefits
 
-- 🚀 **10x Faster Research**: Hours instead of months for comprehensive drug analysis
-- 💡 **Any Drug, Any Indication**: LLM-powered extraction works with real-world queries
-- 📊 **Evidence-Based Decisions**: Multi-source validation reduces clinical trial risk
-- 🎯 **Actionable Insights**: Ranked opportunities with detailed justification
-- 💰 **Cost-Effective**: Free Gemini API for unlimited research queries
+-  **10x Faster Research**: Hours instead of months for comprehensive drug analysis
+-  **Any Drug, Any Indication**: LLM-powered extraction works with real-world queries
+-  **Evidence-Based Decisions**: Multi-source validation reduces clinical trial risk
+-  **Actionable Insights**: Ranked opportunities with detailed justification
+-  **Cost-Effective**: Free Gemini API for unlimited research queries
 
 ## 🛠️ Implementation Status
 
-- ✅ Google Gemini API integration (gemini-2.5-flash)
-- ✅ Multi-agent orchestration system
-- ✅ Drug name & indication extraction from natural language
-- ✅ Knowledge, Clinical, Patent, Market agents
-- ✅ Evidence synthesis and ranking
-- ✅ Molecular toxicity prediction (RandomForest + RDKit)
-- ✅ Streamlit web interface
-- ✅ Fallback extraction for API quota limits
-- ⚠️ Using mock data sources (replace with live APIs in production)
+-  Google Gemini API integration (gemini-2.5-flash)
+-  Multi-agent orchestration system
+-  Drug name & indication extraction from natural language
+-  Knowledge, Clinical, Patent, Market agents
+-  Evidence synthesis and ranking
+-  Molecular toxicity prediction (RandomForest + RDKit)
+-  Streamlit web interface
+-  Fallback extraction for API quota limits
+-  Using mock data sources (replace with live APIs in production)
 
-## 📊 Example Queries
+##  Example Queries
 
 ### Drug Repurposing
 - "Explore neurological uses of Ketamine beyond anesthesia"
@@ -147,7 +147,7 @@ molecule-x/
 - `CC(=O)O` - Acetic acid
 - `CCCC` - Butane
 
-## ⚠️ Important Notes
+##  Important Notes
 
 ### API Quota Limits
 The free Gemini API has rate limits. If you see "429 quota exceeded" errors:
@@ -157,10 +157,10 @@ The free Gemini API has rate limits. If you see "429 quota exceeded" errors:
 
 ### SMILES Input
 When using the Toxicity Predictor, enter ONLY the SMILES notation without labels:
-- ✅ Correct: `CN(C)C=O`
-- ❌ Wrong: `CN(C)C=O,1` (don't include the label from CSV)
+-  Correct: `CN(C)C=O`
+-  Wrong: `CN(C)C=O,1` (don't include the label from CSV)
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 1. **Live API Integration**: Real PubMed & ClinicalTrials.gov data
 2. **Vector Database**: RAG-based evidence retrieval with FAISS
@@ -179,5 +179,6 @@ When using the Toxicity Predictor, enter ONLY the SMILES notation without labels
 - **pandas/numpy**: Data manipulation
 
 ## 📄 License
+
 
 This project is for research and educational purposes.
